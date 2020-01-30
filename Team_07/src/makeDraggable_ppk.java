@@ -16,12 +16,9 @@ public class makeDraggable {
 			
 			JFrame jFrame = new JFrame("makeDraggable.java");
 			jFrame.setSize(1000, 800);
-
 			JPanel panel = new JPanel();
 			panel.setBounds(0, 0, dragPanelWidth, dragPanelHeight);
 			panel.setBackground(Color.gray);
-			Circle c = new Circle(50,50);
-	    	cir.drawShape(graphic, 0, 0);
 			panel.addMouseListener(new MouseListener() {
 				@Override
 				public void mouseClicked(MouseEvent mouseClick) {
@@ -76,12 +73,12 @@ public class makeDraggable {
     }
     public static void addShapeOnClick(JPanel panel, int x, int y)
     {
-/*    	JButton buttonx = new JButton();
+    	JButton buttonx = new JButton();
 		buttonx.setBounds(x, y, 100, 100);
 		panel.add(buttonx);
 		setPos(buttonx,count++);
         buttonx.setBackground(Color.RED);
- */       
+      
     	
     }
 }
